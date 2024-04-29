@@ -49,3 +49,36 @@
     font-size: 16px;
     cursor: pointer;
 }
+
+@media(max-width:420px){
+    .newsletter{
+        inline-size: 280px;
+        padding: 0px 50px;
+        margin-block-end: 30px;
+        gap: 20px;
+    }
+    .newsletter h1{
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .newsletter p{
+        font-size: 15px;
+    }
+    .newsletter div{
+        inline-size: 280px;
+        block-size: 40px;
+        border-radius: 50px;
+    }
+    .newsletter input{
+        inline-size:250px;
+        margin-inline-start: 20px;
+        font-size: 15px;
+    }
+    
+    .newsletter div button{
+        inline-size: 90%;
+        block-size: 40px;
+        border-radius: 50px;
+        font-size: 14px;
+    }
+}
