@@ -3,6 +3,7 @@
     block-size: 100vh;
     background: #fce3fe;
     padding-block-start: 40px;
+    margin-block-end: 50px;
 }
 .loginsignup-container{
     inline-size: 500px;
@@ -59,4 +60,53 @@
     color: #5c5c5c;
     font-size: 18px;
     font-weight: 500;
+}
+
+@media(max-width:420px){
+    .loginsignup{
+        margin-block-start: 50px;
+        inline-size: 100%;
+        block-size: 50vh;
+        padding-block-start: 40px;
+    }
+    .loginsignup-container{
+        inline-size: 300px;
+        block-size: 375px;
+        padding: 10px 20px;
+    }
+    .loginsignup-container h1{
+        font-size: 30px;
+        margin: 10px 0px;
+    }
+    .loginsignup-fields{
+        gap: 20px;
+        margin-block-start: 20px;
+    }
+    .loginsignup-fields input{
+        block-size: 40px;
+        inline-size: 90%;
+        padding-inline-start: 15px;
+        font-size: 18px;
+    }
+    .loginsignup-container button{
+        inline-size: 96%;
+        block-size: 35px;
+        margin-block-start: 20px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .loginsignup-login{
+        margin-block-start: 20px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .loginsignup-login span{
+        font-weight: 500;
+    }
+    .loginsignup-agree{
+        margin-block-start: 20px;
+        gap: 20px;
+        font-size: 13px;
+        font-weight: 400;
+    }    
 }
