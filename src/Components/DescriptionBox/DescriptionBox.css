@@ -30,3 +30,21 @@
     padding: 40px;
     padding-block-end: 60px;
 }
+
+@media(max-width:420px){
+    .descriptionbox {
+        margin: 30px 10px;
+    }
+    
+    .descriptionbox-nav-box {
+        font-size: 14px;
+        inline-size: 100px;
+        block-size: 50px;
+    }
+    
+    .descriptionbox-description {
+        gap: 20px;
+        padding: 20px 15px;
+        padding-block-end: 40px;
+    }
+}
