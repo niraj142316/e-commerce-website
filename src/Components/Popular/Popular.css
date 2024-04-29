@@ -21,3 +21,23 @@
     display: flex;
     gap: 15px;
 }
+
+@media(max-width:420px){
+    .popular{
+        block-size: 80vh;
+    }
+    .popular h1{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .popular hr{
+        inline-size: 100px;
+        block-size: 1px;
+    }
+    .popular-item{
+        margin-block-start:20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+}
