@@ -28,3 +28,13 @@
     transform: scale(1.05);
     transition: 0.6s;
 }
+@media(max-width:420px){
+    .item{
+        inline-size: 160px;
+        font-size: 13px;
+        margin-block-end: 30px;
+    }
+    .item img{
+        inline-size: 160px;
+    }   
+}
